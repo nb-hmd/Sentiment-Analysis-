@@ -1,6 +1,7 @@
 # Sentiment Analysis API with TF-IDF and Logistic Regression
 
 ## 📌 Project Overview
+
 A lightweight sentiment analysis system that classifies text as positive/negative using:
 
 - TF-IDF for text vectorization
@@ -19,7 +20,9 @@ A lightweight sentiment analysis system that classifies text as positive/negativ
 - Pandas (data processing)
 
 ## 📂 Project Structure
+
 sentiment_analysis/
+
 ├── 1_data_preprocessing.py    # Cleans raw Twitter data
 
 ├── 2_tfidf_training.py       # Trains classification model
@@ -33,6 +36,7 @@ sentiment_analysis/
 │   └── logistic_model.pkl    # Trained classifier
 
 ├── data/
+
 │   ├── twitter_data.csv      # Raw input data
 
 │   └── cleaned_twitter_data.csv # Processed data
